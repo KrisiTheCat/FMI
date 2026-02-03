@@ -58,7 +58,7 @@
 
 - **Антирефлексивна**: Никой елемент не е в релация със себе си
   - $\forall a \in A \ (a, a) \notin R$
-  - $Id_A \cap R = \empty$
+  - $Id_A \cap R = \emptyset$
 
 - **Симетрична**:
   - $aRb \implies bRa$
