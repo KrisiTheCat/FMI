@@ -107,16 +107,12 @@ x = c^23 mod 55
 ---
 
 ## Man-in-the-Middle (MITM)
-
-
-
 Ситуация, в която атакуващият тайно прехваща и препредава комуникацията между две страни.
 * **Защита**: Валидация на SSL/TLS сертификати и използване на доверени Certificate Authorities (CA).
 
 ---
 
 ## Random Number Generation
-
 За сигурни токени и ID-та се използват **CSPRNG** (Cryptographically Secure Pseudo-Random Number Generators).
 * В PHP: `random_bytes()` или `random_int()`.
 * Обикновените функции като `rand()` са предвидими и несигурни за криптографски цели.
