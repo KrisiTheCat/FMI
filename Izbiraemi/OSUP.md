@@ -116,7 +116,7 @@
 
 ### Криптоген атаки и защита
 * **[Hash length extension attack](https://en.wikipedia.org/wiki/Length_extension_attack)**: атаките използват Merkle–Damgård функции (MD5/SHA1) за допълване с допълнителни байтове и валидни [MAC](https://en.wikipedia.org/wiki/Message_authentication_code).
-* **[MAC](https://en.wikipedia.org/wiki/Message_authentication_code) (Message Authentication Code)**: $\mathrm{[MAC](https://en.wikipedia.org/wiki/Message_authentication_code)}_K(m)$, комбинация от ключ и съобщение за защитена автентикация.
+* **[MAC](https://en.wikipedia.org/wiki/Message_authentication_code) (Message Authentication Code)**: $\mathrm{MAC}_K(m)$, комбинация от ключ и съобщение за защитена автентикация.
 * **[HMAC](https://en.wikipedia.org/wiki/HMAC)**:  защита срещу length extension $$HMAC_K(m)=H((K\oplus opad)||H((K\oplus ipad)||m))$$
 * **[Side-channel атака](https://en.wikipedia.org/wiki/Side-channel_attack)**: време/паметно бавене при [HMAC](https://en.wikipedia.org/wiki/HMAC) или хеши функции (например с `time-constant compare`).
 
