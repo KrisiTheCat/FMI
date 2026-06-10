@@ -1,5 +1,44 @@
 # Web Security & Network Protocols
 
+## Теми за изпита:
+* Основи на сесиите в PHP ($_SESSION, session_start(), session_destroy())
+* Роля на Session ID (PHPSESSID) и бисквитките (Cookies)
+* Правилно пренасочване в PHP (header() + exit;) и потискане на грешки с @
+* Session Hijacking (Кражба на сесия)
+* Session Fixation (Засаждане на сесия) и защита чрез session_regenerate_id(true)
+* Сигурно съхранение на пароли чрез password_hash() и password_verify()
+* Rainbow Tables (Дъгови таблици), Reduce функция и дълбочина на веригата
+* Salt (Сол) и Pepper (Пипер) при съхранение на пароли
+* Key Derivation Functions (KDF) - PBKDF2 с итерации
+* Argon2 (memory-hard функция за защита от GPU brute-force атаки)
+* Асиметрично криптиране (RSA) - публичен/частен ключ, математически модел и операции
+* Симетрично криптиране (AES-256)
+* Режими на работа на блок шифри (Block Cipher Modes - ECB, CBC, GCM)
+* Значение на IV (Initialization Vector) при шифрирането
+* Hash Length Extension Attack (при Merkle–Damgård функции)
+* Side-channel / Timing attacks (атаки по време) и сравнение за постоянно време
+* MAC и HMAC (автентикация на съобщения и защита от length extension)
+* Принципи на TLS (Transport Layer Security) за защита на данни в движение
+* Ключов обмен (Key Exchange) чрез Diffie-Hellman (DH) и ECDHE (над елиптични криви)
+* Perfect Forward Secrecy (PFS)
+* Инфраструктура на доверие - Certificate Authorities (CA) и CAA записи
+* Man-in-the-Middle (MITM) атаки по мрежата
+* SSLStrip (атака за downgrade от HTTPS към HTTP)
+* HSTS (HTTP Strict Transport Security) заглавка
+* SOP (Same-Origin Policy) за браузърна изолация
+* CORS (Cross-Origin Resource Sharing) и Preflight (OPTIONS) заявки
+* Cross-Site Scripting (XSS) - Reflected (непостоянна) XSS
+* Cross-Site Scripting (XSS) - Stored (постоянна) XSS
+* Cross-Site Scripting (XSS) - DOM-based XSS
+* Защита срещу XSS чрез CSP (Content Security Policy) заглавка и контекстно ескейпване
+* CSRF (Cross-Site Request Forgery) и защита с Anti-CSRF токени и SameSite флагове
+* Clickjacking (UI Redressing) и защита с X-Frame-Options / CSP frame-ancestors
+* SQL Injection (SQLi) - MySQL инжекции (In-band, Error-based, Blind)
+* Защита от SQLi чрез Prepared Statements (параметризирани заявки)
+* SSRF (Server-Side Request Forgery)
+* Автентикация с Токени вместо парола
+* Атаки срещу JWT (уязвимост alg: none и brute-force на слаб секрет)
+
 ## Session Management & Cookies
 
 ### Основна концепция
